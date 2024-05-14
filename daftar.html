@@ -17,109 +17,36 @@
     </header>
     <div class=container>
         <div class=contentDaftar>
-            <form>
-                <table border=1>
-                    <tr>
-                        <td>Nama lengkap
-                        <td>:
-                        <td><input type="text">
-                    <tr>
-                        <td>Tempat dan tanggal lahir
-                        <td>:
-                        <td><input> <select>
-                                <option>Tanggal
-                                <option>1
-                                <option>2
-                                <option>3
-                                <option>4
-                                <option>5
-                                <option>6
-                                <option>7
-                                <option>8
-                                <option>9
-                                <option>10
-                                <option>11
-                                <option>12
-                                <option>13
-                                <option>14
-                                <option>15
-                                <option>16
-                                <option>17
-                                <option>18
-                                <option>19
-                                <option>20
-                                <option>21
-                                <option>22
-                                <option>23
-                                <option>24
-                                <option>25
-                                <option>26
-                                <option>27
-                                <option>28
-                                <option>29
-                                <option>30
-                                <option>31
-                            </select> <select>
-                                <option>Bulan
-                                <option>Januari
-                                <option>Februari
-                                <option>Maret
-                                <option>April
-                                <option>Mei
-                                <option>Juni
-                                <option>Juli
-                                <option>Agustus
-                                <option>September
-                                <option>Oktober
-                                <option>November
-                                <option>Desember
-                            </select> <select>
-                                <option>Tahun
-                                <option>2024
-                                <option>2023
-                                <option>2021
-                                <option>2020
-                                <option>2019
-                                <option>2018
-                                <option>2017
-                                <option>2016
-                                <option>2015
-                                <option>2014
-                            </select>
-                    <tr>
-                        <td>Alamat
-                        <td>:
-                        <td><textarea cols=30 rows=5></textarea>
-                    <tr>
-                        <td>No. Telp/HP
-                        <td>:
-                        <td><input type=number>
-                    <tr>
-                        <td>email
-                        <td>:
-                        <td><input> @ <select>
-                                <option>Gmail.com
-                                <option>Yahoo.com
-                                <option>roket.com
-                            </select>
-                    <tr>
-                        <td>Jenis Kelamin
-                        <td>:
-                        <td><input type=checkbox>Pria <input type=checkbox>Wanita
-                    <tr>
-                        <td>Agama
-                        <td>:
-                        <td><select>
-                                <option>Pilih agama anda
-                                <option>Islam
-                                <option>Budha
-                                <option>Kristen
-                                <option>Konghucu
-                                <option>Protestan
-                            </select>
-                    <tr>
-                        <td><input type=submit><input type=reset>
-                </table>
+            <form class="form">
+                <p class="title">Register </p>
+                <p class="message">Buat akun untuk mandapatkan akses penuh dan notifikasi</p>
+                    <div class="flex">
+                    <label>
+                        <input required="" placeholder="" type="text" class="input">
+                        <span>Nama awal</span>
+                    </label>
+            
+                    <label>
+                        <input required="" placeholder="" type="text" class="input">
+                        <span>Nama akhir</span>
+                    </label>
+                </div>  
+                        
+                <label>
+                    <input required="" placeholder="" type="email" class="input">
+                    <span>Email</span>
+                </label> 
+                    
+                <label>
+                    <input required="" placeholder="" type="password" class="input">
+                    <span>Password</span>
+                </label>
+                <label>
+                    <input required="" placeholder="" type="password" class="input">
+                    <span>Confirm password</span>
+                </label>
+                <button class="submit">Submit</button>
+                <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
             </form>
         </div>
     </div>
